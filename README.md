@@ -1,2 +1,2 @@
 # EntProj
-Entrepreneruship project sem 04
+Entrepreneurship project sem 04 [Zaraaye Apparel]
