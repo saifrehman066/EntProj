@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zaraaye | Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-neutral-950 text-neutral-100 font-sans tracking-wide">
+
+  <!-- Navbar -->
+<header class="flex justify-between items-center px-8 py-6 border-b border-neutral-800">
+  <div class="flex items-center space-x-4">
+    <!-- fixed container (doesn't grow) -->
+    <div class="w-12 h-12 bg-neutral-800 flex items-center justify-center overflow-visible">
+      <!-- scale the inner image without changing container size -->
+      <img src="Z.png" alt="Zaraaye Logo" class="h-20 w-auto object-contain transform scale-125 origin-left">
+    </div>
+    <a href="index.html" class="hover:text-neutral-400 transition text-2x1 font-semibold">Zaraaye</a>
+  </div>
+     <nav class="hidden md:flex space-x-8 text-sm uppercase">
+      <a href="shop.html" class="hover:text-neutral-400 transition">Shop</a>
+      <a href="cart.html" class="hover:text-neutral-400 transition">Cart</a>
+      <a href="about.html" class="hover:text-neutral-400 transition">About</a>
+      <a href="editor.html" class="hover:text-neutral-400 transition">Editor</a>
+      <a href="profile.html" class="hover:text-neutral-400 transition">Profile</a>
+    </nav>
+
+    <!-- Mobile Menu Icon -->
+    <button class="md:hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5M3.75 12h16.5m-16.5 6.75h16.5" />
+      </svg>
+    </button>
+</header>
+
+
+  <!-- Hero Section -->
+  <section class="relative h-screen flex items-center justify-center bg-[url('https://images.unsplash.com/photo-1622445275698-6f5b2a7d4cc5?auto=format&fit=crop&w=1600&q=80')] bg-cover bg-center">
+    <div class="absolute inset-0 bg-black/60"></div>
+    <div class="relative z-10 text-center px-6">
+      <!-- Placeholder for logo + tagline -->
+      <img src="Z.png" alt="Zaraaye Logo" class="items-center justify-center h-25 w-25">
+      <p class="text-neutral-300 mb-8 tracking-wide">ذرائع //The Method is The Message// ذرائع</p>
+      <a href="shop.html" class="inline-block border border-neutral-100 px-6 py-3 uppercase text-sm hover:bg-neutral-100 hover:text-black transition">
+        Shop Now
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-neutral-800 px-8 py-10 text-center text-sm text-neutral-500">
+    <p>&copy; 2025 Zaraaye. All rights reserved.</p>
+    <div class="flex justify-center space-x-6 mt-4">
+      <a href="https://www.instagram.com/zaraayeofficial/" class="hover:text-neutral-300 transition">Instagram</a>
+  </div>
+  </footer>
+
+</body>
+</html>
